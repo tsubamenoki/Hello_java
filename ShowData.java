@@ -1,14 +1,14 @@
 class ShowData {
-  public static void main(String []args) {
+  public static void main(String []args){
     int num = 10;
     double pi = 3.14;
-    char clood = 'A';
+    char blood = 'A';
     boolean fun = true;
-    String msg = "なんとなくおかしいね";
+    String msg = "chomechome";
 
     System.out.println(num);
     System.out.println(pi);
-    System.out.println(clood);
+    System.out.println(blood);
     System.out.println(fun);
     System.out.println(msg);
   }

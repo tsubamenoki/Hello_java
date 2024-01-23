@@ -1,6 +1,6 @@
 class Car4 {
   private int no;
-  static private int count = 0;
+  private static int count = 0;
 
   public Car4() {
    no = 0;
@@ -14,7 +14,7 @@ class Car4 {
     System.out.println("ナンバー" + no + "を作りました");
   }
 
-  static public void display() {
+  public static void display() {
     System.out.println(count + "台作成済みです");
   }
 }
