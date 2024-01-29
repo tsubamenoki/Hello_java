@@ -3,7 +3,7 @@ public class Car2 {
     int speed;
 
     Car2(){
-
+        no = 0;
     }
 
     Car2(int n){
